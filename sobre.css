@@ -1,0 +1,47 @@
+body
+{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: black;
+}
+h1{
+    padding: 10px;                          
+    background-color:lightgrey;
+}
+h2{
+    border-bottom: 2px solid grey;
+}
+ 
+figure
+{
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+ 
+figcaption{
+    margin-top: 10px;
+}
+
+.faixada
+{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.criadores
+{
+    width: 275px;
+    float: right;
+}
+ 
+figure img
+{
+    width:100%;
+}
+ 
