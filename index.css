@@ -1,0 +1,15 @@
+.video{
+    display: block;
+}
+
+.jogos{
+    display: block;
+}
+body
+{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    color: black;
+}
