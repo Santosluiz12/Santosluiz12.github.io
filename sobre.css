@@ -5,6 +5,8 @@ body
     margin-right: auto;
     font-family: "Helvetica", "Lucida Grande", sans-serif;
     color: #000000;
+    line-height: 1.5;
+    font-size: 16px;
 }
 .titulo {
     padding: 10px;
@@ -79,4 +81,18 @@ figure img
 
 .contato__info-descricao{
     margin-left: 10px;
+}
+
+.rodape {
+    padding: 1.75em 0;
+    font-size:  1,1rem;
+}
+
+.rodape__logo{
+    width: 6em;
+}
+
+.rodape__copyright{
+    display: inline;
+    margin-left: 1em;
 }
