@@ -1,6 +1,8 @@
 body
 {
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
+
     margin-left: auto;
     margin-right: auto;
     font-family: "Helvetica", "Lucida Grande", sans-serif;
@@ -22,6 +24,8 @@ border-bottom: 2px solid rgb(154, 21, 243);
 }
 figure
 {
+    max-width: 100%;
+    box-sizing: border-box;
 margin: 30px;
 padding: 15px;
 text-align: center;
@@ -95,4 +99,58 @@ figure img
 .rodape__copyright{
     display: inline;
     margin-left: 1em;
+}
+
+@media (max-width: 850px )
+ {
+     
+    .contato__secao{
+        display: block;
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 622px ){
+
+    .criadores{
+
+        float: none;
+        margin: 0 auto;
+
+    }
+}
+
+@media (max-width: 446px)
+{
+    .contato__subtitulo
+    {
+        display: block;
+        margin-bottom: 0;
+
+    }
+
+    .contato__info
+            {
+                padding: 5px;
+                font-size: .92em;
+                border-left: 2px solid lightblue;
+            }
+            .rodape
+            {
+                
+                font-size: .92em;
+
+            }
+
+}
+
+@media (max-width:342px){
+
+    .contato__info-descricao{
+        display: block;
+        margin-left: 1em;
+    }
+
+
+
 }
